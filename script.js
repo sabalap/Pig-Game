@@ -51,7 +51,7 @@ btnRoll.addEventListener('click', function () {
     const dice = Math.trunc(Math.random() * 6) + 1;
     // Display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `./images/dice-${dice}.png`;
     // Check for rolled 1
     if (dice !== 1) {
       // Add dice to current score
